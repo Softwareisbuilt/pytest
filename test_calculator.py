@@ -65,7 +65,7 @@ class TestCalc(unittest.TestCase):
         c.press("+")
         c.press("3")
         c.press("=")
-        self.assertEqual(c.display, "4")
+        self.assertEqual(c.display, "5")
 
 
 if __name__ == '__main__':
