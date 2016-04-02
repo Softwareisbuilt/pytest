@@ -7,6 +7,6 @@ python:
   - "3.4"
   - "3.5"
 # command to install dependencies
-install: "python test_calculator.py install"
+install: "pip install ."
 # command to run tests
-script: test_calculator.py
+script: test_calculator
