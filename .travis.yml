@@ -8,4 +8,4 @@ python:
   - "3.5"
 # command to install dependencies
 # command to run tests
-script: test_calculator
+script: test_calculator.py
